@@ -14,7 +14,7 @@ Thai [PythaiNLP](https://github.com/PyThaiNLP/pythainlp) tokenizer:
 pip install pythainlp
 ```
 
-Japanese [Kytea](http://www.phontron.com/kyte) tokenizer:
+Japanese [KyTea](http://www.phontron.com/kytea) tokenizer:
 ```
 wget http://www.phontron.com/kytea/download/kytea-0.4.7.tar.gz
 tar -xzf kytea-0.4.7.tar.gz
@@ -36,5 +36,5 @@ unzip stanford-segmenter-2018-10-16.zip
 ```
 git clone https://github.com/glample/fastBPE
 cd fastBPE
-g++ -std=c++11 -pthread -O3 fast.cc -o fast
+g++ -std=c++11 -pthread -O3 fastBPE/main.cc -IfastBPE -o fast
 ```
